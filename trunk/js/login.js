@@ -87,3 +87,10 @@ $('#login .login-tab-r').click(function(){
     $('#login .login-tab-l').css('color','#333')
 })
 /* 给二维码添加移入事件 */
+$('.ma1,.ma2').hover(function(){
+    $('.ma2').stop().fadeOut();
+    $('.ma1').stop().animate({left:90})
+},function(){
+    $('.ma2').stop().fadeIn();
+    $('.ma1').stop().animate({left:26})
+})

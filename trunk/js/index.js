@@ -115,9 +115,9 @@ $(function (){
 
     /* 二维码 */
     $('#center .qrcode-c').hover(function(){
-        $('#center .qrcode-b').show()
+        $('#center .qrcode-b').stop().fadeIn()
     },function(){
-        $('#center .qrcode-b').hide()        
+        $('#center .qrcode-b').stop().fadeOut()        
     })
 
     /* 选项卡 */

@@ -36,8 +36,23 @@
     left: 175px;
     color: #E0E0E0;
 }
-#login .saoma img:first-child{
-    margin: 45px 20px;
+#login .saoma {
+    position: relative;
+}
+#login .saoma img.ma1{
+    position: absolute;
+    top: 52px;
+    left: 26px;
+}
+#login .saoma img.ma2{
+    position: absolute;
+    top: 42px;
+    left: 194px;
+}
+#login .saoma span{
+    position: absolute;
+    top: 245px;
+    left: 79px;
 }
 /* 账户登录 */
 

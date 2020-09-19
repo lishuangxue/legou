@@ -39,3 +39,24 @@ $(function () {
     },function(){
         $(this).css('backgroundColor','#fff')
     })
+
+    /* 数量加减 */
+    let sum= $('.num').val()
+    $('.add').click(function(){
+        sum++;
+        $('.num').val(sum)
+
+        if($('.num').val()<=1){
+            $('.num').val(1)
+        }
+    })
+
+    $('.reduce').click(function(){
+        sum--;
+        $('.num').val(sum)
+        
+        if($('.num').val()<=1){
+            $('.num').val(1)
+        }
+    })
+    

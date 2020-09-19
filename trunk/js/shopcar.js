@@ -3,19 +3,40 @@ $('#payment .itembook li').hover(function(){
 },function(){
     $(this).css('backgroundColor','#fff')
 })
-/* $('#payment input:first').click(function(){
-    $(this).siblings().prop('checked',$('input:first').prop('checked'));
-}) */
-
-/*     $('#payment input:first').click(function(){
-        let bool=$('input:first').prop('checked')
-        console.log(bool);
-        $('input:not(input:first)').prop('checked',bool);
-    }) */
 
 
-/*    let flag=true;
-    $('input:first').click(function(){    
-        $('input:not(input:first)').prop('checked',flag)
-        flag=!flag;  
-    }) */
+    /* 全选 */
+    let flag=false;
+    $('#payment input:first,#payment input:last').click(function(){  
+        if(!flag){
+            $('input:not(input:first)').prop('checked',true)
+        }else{
+            $('input:not(input:first)').prop('checked',false)
+        }   
+        flag=!flag;    
+    }) 
+
+    /* 删除的点击事件 */
+    $('#payment .delete').click(function(){
+        $(this).closest('tr').remove()
+    })
+
+    /* 数量加减 */
+    let sum= $('.num').val()
+    $('.add').click(function(){
+        sum++;
+        $('.num').val(sum)
+
+        if($('.num').val()<=1){
+            $('.num').val(1)
+        }
+    })
+
+    $('.reduce').click(function(){
+        sum--;
+        $('.num').val(sum)
+        
+        if($('.num').val()<=1){
+            $('.num').val(1)
+        }
+    })
