@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/conductlist.css">
+    <!-- 引入 banner插件css-->
+    <link rel="stylesheet" href="./plugin/banner-lubbo/css/slider.css">
+
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego ce6e ">legochina.cn</span> 
+
+                <div class="fr cbfb">
+                    欢迎光临<a href="./index.html" class="cff6">乐购</a>，
+                    请<a href="./login.html" class="cff6">登录</a> \
+                    <a href="./register.html"  class="cff6">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/logo.jpg" alt="" class="legoulogo">
+        </div>
+
+        <!-- 搜索框和购物车订单 -->
+        <div class=" wrapper searchbox clearfix">
+
+            <div class="carbox  clearfix fr">
+                <!-- 购物车 -->
+                <div class="car fl fs14 cfff ">
+                <a href="./shopcar.html" class="cfff">购物车<span class="cfff"> 3</span></a> 
+                </div>
+                <!-- 订单 -->
+                <div class="bgeb fs16 c808 fl order">我的订单</div>
+
+            </div>
+            <!-- 搜索框 -->
+            <form action="#" class="formhbox fr ">
+                <input type="text" placeholder="创意文具" class="txt fs16 cbfb">
+                <input type="submit" class="btn" value="">
+            </form>
+            
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav wrapper clearfix">
+        <ul class="fr">
+            <li><a href="#">图书</a></li>
+            <li><a href="#">电子书</a></li>
+            <li><a href="#">原创文学</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">孕婴童</a></li>
+            <li><a href="#">家具</a></li>
+            <li><a href="#">创意文具</a></li>
+            <li><a href="#">地方特产</a></li>
+            <li><a href="#">海外购</a></li>
+            <li><a href="#">电器城</a></li>
+        </ul>
+        </div>
+
+    </div>
+    
+    <!-- 2.banner -->
+    <div id="banner" class="wrapper clearfix">
+            <!-- 轮播 -->
+            <div class="pptbox fl" id="slider">
+                <ul class="innerwrapper">
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <span class="btnleft"></span>
+                <span class="btnright"></span>
+            </div>
+
+            <!-- 热卖畅销 -->
+            <div class="sell fl">
+                <h2>热销畅卖</h2>
+                <ul>
+                    <li>
+                        <span class="cfff">1</span>
+                        <div class="selltitle curtitle  clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox cur">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">2</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">3</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">4</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">5</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">6</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <span class="cfff">7</span>
+                        <div class="selltitle   clearfix">
+                            <img src="./images/index08_05.jpg" alt="" class="fl ml10">
+                            <p class="c333 fr mt20">《从你的世界路过</p>
+                        </div>
+                        <div  class="clearfix hidebox">
+                            <img src="./images/sanxiu.jpg" alt="" class="sanxiu fl">
+                            <p class="txt fr">《三体》刘慈欣
+                                一场科幻的史诗 风暴</p>
+                        </div> 
+                    </li>
+
+                </ul>
+            </div>
+
+            <img src="./images/moshou.png" alt="">
+
+    </div>
+    
+    <!-- 3.产品 -->
+    <div id="conduct" class="wrapper">
+        <ul>
+            <!-- 乐购·图书折扣区 -->
+            <li class="discount">
+                <!-- 标题 -->           
+                <div class="title fs24 mt20">
+                    乐购·图书折扣区
+                </div>
+
+                <ul class="clearfix">
+
+                    <script>
+                        for(let i=0;i<5;i++){
+                            document.write(`
+                                <li>
+                                    <a href="./conductdetails.html">
+                                        <p class="txtal"><img src="./images/baiyaxing .jpg" alt=""></p>
+                                        <p><img src="./images/index05_18.jpg" alt=""></p>
+                                        <p class="c333 tindent10 ">白夜行  东野上吾</p>
+                                        <p class="tindent10 cred">推荐：<span class="cfee fs16">★★★★★</span>  </p>
+                                        <p class="tindent10 cred fs24">￥:38  <span class="c808 tline">￥:58</span> </p>
+                                    </a>
+                                </li>            
+                            `)
+                        }    
+                    </script>
+                </ul>
+
+                <ul class="clearfix">
+                        <script>
+                            for(let i=0;i<5;i++){
+                                document.write(`
+                                    <li>
+                                        <a href="./conductdetails.html">
+                                            <p class="txtal"><img src="./images/nansheng.jpg" alt=""></p>
+                                            <p><img src="./images/index05_18.jpg" alt=""></p>
+                                            <p class="c333 tindent10 ">白夜行  东野上吾</p>
+                                            <p class="tindent10 cred">推荐：<span class="cfee fs16">★★★★★</span>  </p>
+                                            <p class="tindent10 cred fs24">￥:30  <span class="c808 tline">￥:60</span> </p>
+                                        </a>
+                                    </li>            
+                                `)
+                            }    
+                        </script>
+                 </ul>
+            </li>
+
+            <!-- 新书上架 -->
+            <li class="newbook clearfix">
+                <!-- 标题 -->
+                <div class="title fs24 mt20">
+                    <span class="fs28 active">新</span>书上架
+                </div>
+                <!-- 书 -->
+                <div class="book fl">
+                    <ul class="clearfix">
+                        <script>
+                            for(let i=0;i<5;i++){
+                                document.write(`
+                                    <li>
+                                        <a href="./conductdetails.html">
+                                            <p class="txtal"><img src="./images/big.jpg" alt=""></p>
+                                            <p class="tindent20">查理 斯密斯</p>
+                                            <p class="tindent20">中国邮政出版社</p>
+                                            <p class="cred fs24 tindent20">￥49  <span class="tline cbfb">￥79</span> </p>
+                                        </a>
+                                    </li>
+                                `)
+                            }    
+                        </script>
+                    </ul>
+                    <ul class="clearfix">
+                            <script>
+                                for(let i=0;i<5;i++){
+                                    document.write(`
+                                        <li>
+                                            <a href="./conductdetails.html">
+                                                <p class="txtal"><img src="./images/jinrong.jpg" alt=""></p>
+                                                <p class="tindent20">查理 斯密斯</p>
+                                                <p class="tindent20">中国邮政出版社</p>
+                                                <p class="cred fs24 tindent20">￥49  <span class="tline cbfb">￥79</span> </p>
+                                            </a>
+                                        </li>
+                                    `)
+                                }    
+                            </script>
+                    </ul>
+                </div>
+
+                <!-- 右边热销盒子-->
+                <div class="rightbook fr">
+                    <h3 class="txtal fs24 c808 fwn mt10 mb10">主编推荐</h3>
+                    <ul>
+                        <li>
+                            <span class="cred">1</span>
+                            <p class="righttitle currt fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox currb clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="cred">2</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox  clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="cred">3</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>4</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <span>5</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>6</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>7</span>
+                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                            <div class="rightbox clearfix">
+                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                <p class="fl c4d4">从你的世界路过
+                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+
+            <!-- 独家提供 -->
+            <li class="exclusive">
+                <!-- 标题 -->
+                <div class="title fs24 mt20 clearfix">
+                    <span class="fs28 active ">独</span>家提供
+                    <ul class="clearfix fr c333 fs18">
+                        <li class="active">货币金融</li>
+                        <li>社会文学</li>
+                        <li>科学技术</li>
+                        <li>儿童文学</li>
+                        <li>数学参辅</li>
+                        <li>生活</li>
+                    </ul>
+                </div>
+
+                <!-- 轮播 -->
+                <section class="cur">
+                    
+                    <div class="pptbox fl" id="slider2">
+                        <ul class="innerwrapper">
+                            <li>
+                                <ul class="book clearfix">
+                                    <script>
+                                        for(let i=0;i<10;i++){
+                                            document.write(`
+                                                <li>
+                                                    <p class="txtal"><img src="./images/door.jpg" alt=""></p>
+                                                    <p class="tindent20">查理 斯密斯</p>
+                                                    <p class="tindent20">中国邮政出版社</p>
+                                                    <p class="cred fs24 tindent20">￥49  <span class="tline cbfb">￥79</span> </p>
+                                                </li>
+                                            `)
+                                        }    
+                                    </script>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="controls">
+                            <li class="current">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                        <span class="btnleft"></span>
+                        <span class="btnright"></span>
+                    </div>
+                </section>
+
+                <section>
+                        <ul class="clearfix comul">
+                                <script>
+                                    for(let i=0;i<10;i++){
+                                        document.write(`
+                                        <li>
+                                             <a href="./conductdetails.html">
+                                                <img src="./images/index25_12.jpg" alt="" class="nai">
+                                                <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                                <span class="span1">￥:189</span>
+                                                <p class="cb9"> 
+                                                    <img src="./images/index27_14.jpg" alt=""> 已有
+                                                    <span>988</span>条评价 
+                                                </p>
+                                             </a>
+                                        </li>
+                    
+                                        `)
+                                    }    
+                                </script>
+                         </ul>
+                </section>
+
+                <section>
+                        <ul class="clearfix comul">
+                                <script>
+                                    for(let i=0;i<10;i++){
+                                        document.write(`
+                                        <li>
+                                             <a href="./conductdetails.html">
+                                                <img src="./images/index22_05.jpg" alt="" class="nai">
+                                                <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                                <span class="span1">￥:189</span>
+                                                <p class="cb9"> 
+                                                    <img src="./images/index27_14.jpg" alt=""> 已有
+                                                    <span>988</span>条评价 
+                                                </p>
+                                             </a>
+                                        </li>
+                    
+                                        `)
+                                    }    
+                                </script>
+                         </ul>
+                </section>
+
+                <section>
+                        <ul class="clearfix comul">
+                                <script>
+                                    for(let i=0;i<10;i++){
+                                        document.write(`
+                                        <li>
+                                             <a href="./conductdetails.html">
+                                                <img src="./images/index25_12.jpg" alt="" class="nai">
+                                                <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                                <span class="span1">￥:189</span>
+                                                <p class="cb9"> 
+                                                    <img src="./images/index27_14.jpg" alt=""> 已有
+                                                    <span>988</span>条评价 
+                                                </p>
+                                             </a>
+                                        </li>
+                    
+                                        `)
+                                    }    
+                                </script>
+                         </ul>
+                </section>
+
+                <section>
+                        <ul class="clearfix comul">
+                                <script>
+                                    for(let i=0;i<10;i++){
+                                        document.write(`
+                                        <li>
+                                             <a href="./conductdetails.html">
+                                                <img src="./images/index22_05.jpg" alt="" class="nai">
+                                                <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                                <span class="span1">￥:189</span>
+                                                <p class="cb9"> 
+                                                    <img src="./images/index27_14.jpg" alt=""> 已有
+                                                    <span>988</span>条评价 
+                                                </p>
+                                             </a>
+                                        </li>
+                    
+                                        `)
+                                    }    
+                                </script>
+                         </ul>
+                </section>
+
+            </li>
+
+            <!-- 猜你喜欢 -->
+            <li class="like">
+                <div class="title fs24 mt20 clearfix">
+                    <span class="fs28 active">猜</span>你喜欢
+                    <div class="huan fr c468 fs18"> <img src="./images/images/换_03.jpg" alt=""> 换一批</div>
+               </div>
+
+               <div class="like1">
+                   <ul class="book clearfix">
+                        <script>
+                            for(let i=0;i<5;i++){
+                                document.write(`
+                                    <li>
+                                         <a href="./conductdetails.html">
+                                            <p class="txtal"><img src="./images/love.jpg" alt=""></p>
+                                            <p class="tindent20">查理 斯密斯</p>
+                                            <p class="tindent20">中国邮政出版社</p>
+                                            <p class="cred fs24 tindent20">￥49  <span class="tline cbfb">￥79</span> </p>
+                                        </a>
+                                    </li>
+                                `)
+                            }   
+     
+                        </script>
+                    </ul>
+    
+                    <ul class="book clearfix">
+                        <script>
+                            for(let i=0;i<5;i++){
+                                document.write(`
+                                    <li>
+                                        <p class="txtal"><img src="./images/yujian.jpg" alt=""></p>
+                                        <p class="tindent20">查理 斯密斯</p>
+                                        <p class="tindent20">中国邮政出版社</p>
+                                        <p class="cred fs24 tindent20">￥49  <span class="tline cbfb">￥79</span> </p>
+                                    </li>
+                                `)
+                            }   
+        
+                        </script>
+                    </ul>
+               </div>
+
+               <div class="like2">
+                   <ul class="clearfix comul">
+                           <script>
+                               for(let i=0;i<10;i++){
+                                   document.write(`
+                                   <li>
+                                        <a href="./conductdetails.html">
+                                           <img src="./images/index25_12.jpg" alt="" class="nai">
+                                           <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                           <span class="span1">￥:189</span>
+                                           <p class="cb9"> 
+                                               <img src="./images/index27_14.jpg" alt=""> 已有
+                                               <span>988</span>条评价 
+                                           </p>
+                                        </a>
+                                   </li>
+               
+                                   `)
+                               }    
+                           </script>
+                    </ul>
+                   
+               </div>
+
+            </li>
+            <img src="./images/images/renwen_07.jpg" alt="">
+            <img src="./images/moshou.png" alt="">
+        </ul>
+    </div>
+
+    <!-- 4.顶部搜索框 -->
+    <div id="topsearch">
+            <div class="wrapper searchbox ">
+    
+            </div>
+    </div>
+    
+    <!-- 5.回到顶部 -->
+    <div id="topback">
+
+    </div>
+
+    <!-- 6.页脚 -->
+    <div id="footer">
+        <div class="service">
+            <img src="./images/222_11.png" alt="">
+            <img src="./images/222_13(1).png" alt="">
+            <img src="./images/222_15.png" alt="">
+            <img src="./images/222_17.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <ul class="clearfix">
+                <li>
+                    <h2>购物指南</h2>
+                    <ul>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">发票制度</a></li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">会员优惠</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>支付方式</h2>
+                    <ul>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">网上支付</a></li>
+                        <li><a href="#">礼品卡支付</a></li>
+                        <li><a href="#">银行转账</a></li>
+                    </ul>                    
+                </li>
+
+                <li>
+                    <h2>订单服务</h2>
+                    <ul>
+                        <li><a href="#">订单配送配送</a></li>
+                        <li><a href="#">订单状态查询</a></li>
+                        <li><a href="#">自动取消订单</a></li>
+                        <li><a href="#">自动修改订单</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>退换货</h2>
+                    <ul>
+                        <li><a href="#">退换货政策</a></li>
+                        <li><a href="#">自动申请退换货</a></li>
+                        <li><a href="#">退换货进度查询</a></li>
+                        <li><a href="#">退款方式和时间</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>商家服务</h2>
+                    <ul>
+                        <li><a href="#">商家中心</a></li>
+                        <li><a href="#">运营服务</a></li>
+                        <li><a href="#">加入唯品会</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <img src="./images/logo_00.png" alt="" class="logo">  
+            <div class="info">
+                    公司简介  |  Investor Relations  |  网站联盟  |  乐购招商  |  机构销售  |  手机乐购  |  官方Blog   |  热词搜索
+            </div>
+
+            <div class="bottom">
+                    Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入banner插件 -->
+    <script src="./plugin/banner-lubbo/lib/jquery.slidebox.js"></script>
+    <!-- 引入当前js -->
+    <script src="./js/conductlist.js"></script>
+</body>
+</html>

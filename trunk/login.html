@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego ce6e ">legochina.cn</span> 
+
+                <div class="fr cbfb">
+                    欢迎光临<a href="./index.html" class="cff6">乐购</a>，
+                    请<a href="#" class="cff6">登录</a> \
+                    <a href="./register.html"  class="cff6">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/logo.jpg" alt="" class="legoulogo">
+         </div>
+        
+         <!-- 欢迎登录 -->
+         <div class="welcome fs30 c666 wrapper">
+               <span>欢迎登录</span> 
+         </div>
+    </div>
+    
+    <!-- 2.登录 -->
+    <div id="login">
+        <div class="qrcode wrapper txtal">
+            <div class="style fs22  clearfix">
+                <a href="#" class="fl  login-tab-l cff6">扫码登录</a>
+                <span >|</span>
+                <a href="#" class="fl  login-tab-r">账号登录</a>
+            </div>
+            <!-- 扫码 -->
+            <div class="saoma">
+                <img src="./images/images/show.png" alt="">
+                <img src="./images/images/phone-orange.png" alt="">
+                <span class="c666">打开手机版 乐购APP  扫一扫</span>
+            </div>
+
+            <!-- /* 账户登录 */ -->
+            <div class="account">
+                <form action="#" class="txtal" id="signupForm">
+                    <section class="userlogo"></section> 
+                    <p class="userbox">
+                        <img src="./images/delete.png" alt="" class="delimg">
+                        <input type="text" name="username"  class="username tindent50" placeholder="邮箱/用户名/登录手机">
+                    </p>
+                    <section class="pwdlogo"></section>   
+                    <div class="pwdbox">
+                        <img src="./images/close.png" alt="" class="climg">                 
+                        <input type="password" name="pwd"  class="pwd tindent50" placeholder="密码"><br>
+                    </div>
+                    <div class="clearfix lbox">
+                        <input type="checkbox" class="autlogin fl"> <span>自动登录</span>   <a href="#" class="fr">忘记密码</a>
+                    </div>
+                    <input type="submit" class="btn bgff cfff fs22" value="登    录"> 
+                </form>
+                <div class="now  fs22">  <span></span> <a href="./register.html" class="cff6">立即注册</a> </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 3.页脚 -->
+    <div id="footer" class="wrapper txtal">  
+            <div class="info mtb ">
+                    公司简介  |  Investor Relations  |  网站联盟  |  乐购招商  |  机构销售  |  手机乐购  |  官方Blog   |  热词搜索
+            </div>
+
+            <div class="bottom">
+                    Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </div>
+            <div class="kong"></div>
+        </div>
+    </div>
+
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入表单验证的插件 -->
+    <script src="./plugin/form/jquery.validate.min.js"></script>
+    <!-- 引入当前js -->
+    <script src="./js/login.js"></script>
+</body>
+</html>

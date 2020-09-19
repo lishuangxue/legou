@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/shopcar.css">
+
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego ce6e ">legochina.cn</span> 
+
+                <div class="fr cbfb">
+                    欢迎光临<a href="./index.html" class="cff6">乐购</a>，
+                    请<a href="./login.html" class="cff6">登录</a> \
+                    <a href="./register.html"  class="cff6">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/logo.jpg" alt="" class="legoulogo">
+        </div>
+
+        <!-- 搜索框 -->
+        <div class=" wrapper searchbox clearfix">
+            <!-- 搜索框 -->
+            <form action="#" class="formhbox fr ">
+                <input type="text" placeholder="设计中的设计 原研哉" class="txt fs16 cbfb">
+                <input type="submit" class="btn" value="">
+            </form>
+            
+        </div>
+
+        <!-- 导航栏 --> 
+        <div class="nav wrapper clearfix mb40 mt20 c4d4">
+              <p class="fr">
+
+                  配送至
+                  <select >
+                          <option value="">成都高新区三环内</option>
+                          <option value="">重庆渝北三环内</option>
+                          <option value="">北京天府区三环内</option>
+                </select>
+
+              </p> 
+        </div>
+
+    </div>
+    
+    <!-- 2.结算 -->
+    <div id="payment" class="wrapper">
+        <p class="c666 fs20">填写并核对订单信息</p>
+        <table>
+            <thead>
+                <tr class="fs18 c808 tindent20 ">
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>全选</td>
+                    <td>商品</td>
+                    <td>总价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+
+            <tbody class="c4d4 fs16 tindent20">
+                <tr>
+                    <td> <input type="checkbox">  </td>
+                    <td><img src="./images/index08_05.jpg" alt=""></td>
+                    <td>从你的全世界路过</td>
+                    <td>41.00</td>
+                    <td>
+                        <ul class="clearfix txtal">
+                            <li class="reduce">-</li>
+                            <li class="num">1</li>
+                            <li class="add">+</li>
+                        </ul>
+                    </td>
+                    <td class="fs18 ">41.00</td>
+                    <td>  <div class="delete">删除</div>  <br>移到我的关注</td>
+                </tr>
+                <tr>
+                        <td> <input type="checkbox">  </td>
+                        <td><img src="./images/index08_05.jpg" alt=""></td>
+                        <td>从你的全世界路过</td>
+                        <td>41.00</td>
+                        <td>
+                            <ul class="clearfix txtal">
+                                <li class="reduce">-</li>
+                                <li class="num">1</li>
+                                <li class="add">+</li>
+                            </ul>
+                        </td>
+                        <td class="fs18">41.00</td>
+                        <td><div class="delete">删除</div><br>移到我的关注</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr class="fs18 c808 tindent20" >
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>全选</td>
+                    <td>删除选中商品</td>
+                    <td>已选择  <span class="cff6">1 </span>件商品</td>
+                    <td class="fs20 c4d4">总价 <span class="cff6"> 41.00</span></td>
+                    <td></td>
+                    <td class="fs26 cfff txtal">去结算</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <div class="itembook mt50">
+                <h2 class="fs24 cfff txtal">猜你喜欢</h2>
+                <ul class="clearfix">
+                    <script>
+                        for(let i=0;i<5;i++){
+                            document.write(`
+                                <li>
+                                    <a href="./conductdetails.html">
+                                        <p class="txtal"><img src="./images/baiyaxing .jpg" alt=""></p>
+                                        <p><img src="./images/index05_18.jpg" alt=""></p>
+                                        <p class="c333 tindent10 ">白夜行  东野上吾</p>
+                                        <p class="tindent10 cred">推荐：<span class="cfee fs16">★★★★★</span>  </p>
+                                        <p class="tindent10 cred fs24">￥:38  <span class="c808 tline">￥:58</span> </p>
+                                    </a>
+                                </li>            
+                            `)
+                        }    
+                    </script>
+                </ul>
+       </div>
+    </div>
+
+    <!-- 3.页脚 -->
+    <div id="footer" class="mt50">
+        <div class="txtal wrapper">
+            <img src="./images/moshou.png" alt="" >     
+        </div>
+        
+        <div class="service">
+            <img src="./images/222_11.png" alt="">
+            <img src="./images/222_13(1).png" alt="">
+            <img src="./images/222_15.png" alt="">
+            <img src="./images/222_17.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <ul class="clearfix">
+                <li>
+                    <h2>购物指南</h2>
+                    <ul>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">发票制度</a></li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">会员优惠</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>支付方式</h2>
+                    <ul>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">网上支付</a></li>
+                        <li><a href="#">礼品卡支付</a></li>
+                        <li><a href="#">银行转账</a></li>
+                    </ul>                    
+                </li>
+
+                <li>
+                    <h2>订单服务</h2>
+                    <ul>
+                        <li><a href="#">订单配送配送</a></li>
+                        <li><a href="#">订单状态查询</a></li>
+                        <li><a href="#">自动取消订单</a></li>
+                        <li><a href="#">自动修改订单</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>退换货</h2>
+                    <ul>
+                        <li><a href="#">退换货政策</a></li>
+                        <li><a href="#">自动申请退换货</a></li>
+                        <li><a href="#">退换货进度查询</a></li>
+                        <li><a href="#">退款方式和时间</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>商家服务</h2>
+                    <ul>
+                        <li><a href="#">商家中心</a></li>
+                        <li><a href="#">运营服务</a></li>
+                        <li><a href="#">加入唯品会</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <img src="./images/logo_00.png" alt="" class="logo">  
+            <div class="info">
+                    公司简介  |  Investor Relations  |  网站联盟  |  乐购招商  |  机构销售  |  手机乐购  |  官方Blog   |  热词搜索
+            </div>
+
+            <div class="bottom">
+                    Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+
+    <!-- 引入当前js -->
+    <script src="./js/shopcar.js"></script>
+</body>
+</html>

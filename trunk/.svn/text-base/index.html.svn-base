@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入 banner插件css-->
+    <link rel="stylesheet" href="./plugin/banner-lubbo/css/slider.css">
+
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego ce6e ">legochina.cn</span> 
+
+                <div class="fr cbfb">
+                    欢迎光临<a href="#" class="cff6">乐购</a>，
+                    请<a href="./login.html" class="cff6">登录</a> \
+                    <a href="./register.html"  class="cff6">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/logo.jpg" alt="" class="legoulogo">
+        </div>
+
+        <!-- 搜索框和购物车订单 -->
+        <div class=" wrapper searchbox clearfix">
+
+            <div class="carbox  clearfix fr">
+                <!-- 购物车 -->
+                <div class="car fl fs14 cfff ">
+                <a href="./shopcar.html" class="cfff">购物车<span class="cfff"> 3</span></a> 
+                </div>
+                <!-- 订单 -->
+                <div class="bgeb fs16 c808 fl order">我的订单</div>
+
+            </div>
+            <!-- 搜索框 -->
+            <form action="#" class="formhbox fr ">
+                <input type="text" placeholder="创意文具" class="txt fs16 cbfb">
+                <input type="submit" class="btn" value="">
+            </form>
+            
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav wrapper clearfix">
+        <ul class="fr">
+            <li><a href="#">图书</a></li>
+            <li><a href="#">电子书</a></li>
+            <li><a href="#">原创文学</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">孕婴童</a></li>
+            <li><a href="#">家具</a></li>
+            <li><a href="#">创意文具</a></li>
+            <li><a href="#">地方特产</a></li>
+            <li><a href="#">海外购</a></li>
+            <li><a href="#">电器城</a></li>
+        </ul>
+        </div>
+
+    </div>
+    
+    <!-- 2.商品分类和banner -->
+    <div class="wrapper clearfix">
+        <!-- 商品分类 -->
+            <ul class="classify fl">
+                <li>
+                    <a href="">图书</a>、
+                    <a href="">电子书</a>、
+                    <a href="">童书</a>
+                    <span></span>
+                    <!-- 二级菜单 -->
+                    <div class="submenu">
+                        <h4>
+                            <a href="#">图书馆>></a>
+                            <a href="#">儿童书馆>></a>
+                            <a href="#">电子书馆>></a>
+                        </h4>
+                        <!-- ul>(li>h2{文艺}+a{小说}+a{文学}+a{传记}+a{青春}+a{动漫}+a{艺术}+a{摄影}+a{明星})*8 -->
+                        <ul>
+                            <li>
+                                <h2>文艺</h2>
+                                <a href="#">小说</a>
+                                <a href="#">文学</a>
+                                <a href="#">传记</a>
+                                <a href="#">青春</a>
+                                <a href="#">动漫</a>
+                                <a href="#">艺术</a>
+                                <a href="#">摄影</a>
+                                <a href="#">明星</a>
+                            </li>
+
+                            <li>
+                                <h2>人文社科</h2>
+                                <a href="#">小说</a>
+                                <a href="#">文学</a>
+                                <a href="#">传记</a>
+                                <a href="#">青春</a>
+                                <a href="#">动漫</a>
+                                <a href="#">艺术</a>
+                                <a href="#">摄影</a>
+                                <a href="#">明星</a>
+                                <a href="#">历史</a>
+                                <a href="#">政治军事</a>
+                                <a href="#">文化</a>
+                                <a href="#">心理学</a>
+                                <a href="#">法律</a>
+                            </li>
+
+                            <li>
+                                <h2>管理</h2>
+                                <a href="#">小说</a>
+                                <a href="#">文学</a>
+                                <a href="#">传记</a>
+                                <a href="#">青春</a>
+                                <a href="#">动漫</a>
+                                <a href="#">艺术</a>
+                                <a href="#">摄影</a>
+                                <a href="#">明星</a>
+                                <a href="#">经济</a>
+                                <a href="#">投资理财</a>
+                                <a href="#">金融</a>
+                                <a href="#">互联网</a>
+                            </li>
+
+                            <li>
+                                <h2>励志</h2>
+                                <a href="#">小说</a>
+                                <a href="#">文学</a>
+                                <a href="#">传记</a>
+                                <a href="#">青春</a>
+                                <a href="#">动漫</a>
+                                <a href="#">艺术</a>
+                                <a href="#">摄影</a>
+                                <a href="#">明星</a>
+                                <a href="#">励志成功</a>
+                                <a href="#">职场</a>
+                                <a href="#">心灵修养</a>
+                            </li>
+
+                            <li>
+                                <h2>教育</h2>
+                                <a href="#">中小学教辅</a>
+                                <a href="#">考试</a>
+                                <a href="#">大中专教辅</a>
+                                <a href="#">外语</a>
+                                <a href="#">工具书</a>
+                                <a href="#">公务员</a>
+                                <a href="#">考研</a>
+                            </li>
+
+                            <li>
+                                <h2>科技</h2>
+                                <a href="#">科普读物</a>
+                                <a href="#">计算机\网络</a>
+                                <a href="#">医学</a>
+                                <a href="#">工业技术</a>
+                                <a href="#">建筑</a>
+                                <a href="#">自然科学</a>
+                            </li>
+
+                            <li>
+                                <h2>生活</h2>
+                                <a href="#">两性</a>
+                                <a href="#">孕期</a>
+                                <a href="#">育儿</a>
+                                <a href="#">保健</a>
+                                <a href="#">运动</a>
+                                <a href="#">休闲</a>
+                                <a href="#">旅游</a>
+                                <a href="#">美食</a>
+                                <a href="#">美妆</a>
+                                <a href="#">家居</a>
+                                <a href="#">生活</a>
+                                <a href="#">健身</a>
+                            </li>
+
+                            <li>
+                                <h2>刊\进口书</h2>
+                                <a href="#">英文进口书</a>
+                                <a href="#">杂志</a>
+                                <a href="#">港台进口书</a>
+                                <a href="#">进口艺术画册</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+
+                <li> 
+                    <a href="">创意文具</a>
+                </li>
+
+                <li>
+                    <a href="">服饰</a>、
+                    <a href="">内衣</a>
+                </li>
+
+                <li> 
+                    <a href="">鞋靴</a>、
+                    <a href="">箱包</a>
+                </li>
+
+                <li>
+                    <a href="">户外运动</a>
+                </li>
+
+                <li>               
+                    <a href="">孕</a>、
+                    <a href="">婴</a>、
+                    <a href="">童</a>
+                </li>
+
+                <li>               
+                    <a href="">家居</a>、
+                    <a href="">家纺</a>、
+                    <a href="">汽车</a>
+                </li>
+
+                <li>   
+                    <a href="">家具</a>、
+                    <a href="">家装</a>、
+                    <a href="">康体</a>
+                </li>
+                
+                <li>               
+                    <a href="">美妆</a>、
+                    <a href="">个人护理</a>、
+                    <a href="">成人</a>
+                </li>
+                
+                <li>
+                    <a href="">食品</a>、
+                    <a href="">茶酒</a>、
+                    <a href="">生鲜</a>
+                </li>
+
+                <li>
+                    <a href="">腕表</a>、
+                    <a href="">珠宝</a>、
+                    <a href="">眼镜</a>
+                </li>
+
+                <li>
+                    
+                    <a href="">手机</a>、
+                    <a href="">数码</a>
+                </li>
+
+                <li>
+                    
+                    <a href="">电脑办公</a>
+                </li>
+
+                <li>
+                    
+                    <a href="">家用电器</a>
+                </li>
+            </ul>
+
+        <!-- banner -->
+        <div class="banner fr">
+            <div class="pptbox fl" id="slider">
+                <ul class="innerwrapper">
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <span class="btnleft"></span>
+                <span class="btnright"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 3. 内容商品-->
+    <div class="contain wrapper">
+        <ul class="clearfix">
+            <!-- 乐购.今日推荐 -->
+            <li class="recommend">
+                <h2>乐购.今日推荐</h2>
+
+                <ul class="clearfix">
+                    <script>
+                        for(let i=0;i<6;i++){
+                            document.write(`
+                                <li> 
+                                    <a href="./conductdetails.html">
+                                        <img src="./images/index06_05.jpg" alt="" class="mouse">
+                                        <img src="./images/index05_18.jpg" alt="">
+                                        <div>黑爵青蜂侠六键电竞游戏鼠标 </div>
+                                        <span> 全国联保 一年免费包换</span>
+                                        <p>￥:299</p>
+                                    </a>
+                                </li>                      
+                            `)
+                        }    
+                    </script>
+                </ul>
+
+                <ul class="clearfix">
+                    <script>
+                        for(let i=0;i<6;i++){
+                            document.write(`
+                                <li>
+                                    <a href="./conductdetails.html">
+                                         <img src="./images/index06_11.jpg" alt="" class="mouse">
+                                        <img src="./images/index05_18.jpg" alt="">
+                                        <div>小熊家用静音加湿器 </div>
+                                        <span> 唯美外观 微米级喷雾</span>
+                                        <p>￥:89</p>
+                                    </a>
+                                </li>                
+                            `)
+                        }    
+                    </script>
+                </ul>
+            </li>
+
+            <!-- 电子书 -->
+            <section class="ebook">
+                <li class="ebook">
+                   <h2 class="clearfix"> 
+                       <div class="fl">图书 电子书 </div>
+                       <div class="fl new"> 
+                           <span class="spancur">最新上架</span> <span>独家畅销 </span>  <span>电子书</span>   
+                       </div> 
+                   </h2>
+    
+                   <div class="book clearfix">
+                        <!-- 左边 -->
+                        <div class="fl left">
+                            <img src="./images/index7_07.jpg" alt="">
+                            <ul class="clearfix">
+                                <li><a href="./conductlist.html">中小学教辅</a></li>
+                                <li><a href="./conductlist.html">外语</a></li>
+                                <li><a href="./conductlist.html">考试</a></li>
+                                <li><a href="./conductlist.html">小说</a></li>
+                                <li><a href="./conductlist.html">文学</a></li>
+                                <li><a href="./conductlist.html">青春文学</a></li>
+                                <li><a href="./conductlist.html">成功\励志</a></li>
+                                <li><a href="./conductlist.html">管理</a></li>
+                                <li><a href="./conductlist.html">历史</a></li>
+                                <li><a href="./conductlist.html">哲学\宗教</a></li>
+                                <li><a href="./conductlist.html">亲子\家教</a></li>
+                                <li><a href="./conductlist.html">全部分类></a></li>
+                            </ul>
+                        </div>
+                        <!-- 中间 -->
+                        <div class="fl middle clearfix">
+                            <div class="lunbo fl">
+    
+                                <div class="pptbox fl" id="slider2">
+                                        <ul class="innerwrapper">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/ppt2_05.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="controls">
+                                            <li class="current">1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                            <li>5</li>
+                                        </ul>
+                                        <span class="btnleft"></span>
+                                        <span class="btnright"></span>
+                                </div>
+    
+                            </div>
+    
+                            <ul class="clearfix fl">
+                                <li>
+                                    <a href="./conductdetails.html">
+                                        <div>奥运狂欢</div>
+                                        <p>10万种电子书 直降40%</p>
+                                        <img src="./images/index09_05.jpg" alt="">
+                                        <p class="p2">￥49  <span>￥79</span></p>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="./conductdetails.html">
+                                        <div>奥运狂欢</div>
+                                        <p>10万种电子书 直降40%</p>
+                                        <img src="./images/index09_05.jpg" alt="">
+                                        <p class="p2">￥49  <span>￥79</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="ul2">
+                                <script>
+                                    for(let i=0;i<4;i++){
+                                        document.write(`
+                                            <li>
+                                                <a href="./conductdetails.html">
+                                                    <div>奥运狂欢</div>
+                                                    <p>10万种电子书 直降40%</p>
+                                                    <img src="./images/index09_05.jpg" alt="">
+                                                    <p class="p2">￥49  <span>￥79</span></p>
+                                                </a>
+                                            </li>                                       
+                                        `)
+                                    }    
+                                </script>
+                            </ul>
+                        </div>
+                        <!-- 右边 -->
+                        <div class="rightbook fr">
+                                <h3 class="txtal fs24 c808 fwn mt10 mb10">主编推荐</h3>
+                                <ul>
+                                    <li>
+                                         <a href="./conductdetails.html">
+                                            <span class="cred">1</span>
+                                            <p class="righttitle currt fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                            <div class="rightbox currb clearfix">
+                                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                                <p class="fl c4d4">从你的世界路过
+                                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                            </div>
+                                          </a>
+                                    </li>
+            
+                                    <li>
+                                        <a href="./conductdetails.html"></a>
+                                            <span class="cred">2</span>
+                                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                            <div class="rightbox  clearfix">
+                                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                                <p class="fl c4d4">从你的世界路过
+                                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                            </div>
+                                        </a>
+                                    </li>
+            
+                                    <li>
+                                        <a href="./conductdetails.html">
+                                            <span class="cred">3</span>
+                                            <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                            <div class="rightbox clearfix">
+                                                <img src="./images/index08_05.jpg" alt="" class="fl">
+                                                <p class="fl c4d4">从你的世界路过
+                                                        入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span>4</span>
+                                        <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                        <div class="rightbox clearfix">
+                                            <img src="./images/index08_05.jpg" alt="" class="fl">
+                                            <p class="fl c4d4">从你的世界路过
+                                                    入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                        </div>
+                                    </li>
+                
+                                    <li>
+                                        <span>5</span>
+                                        <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                        <div class="rightbox clearfix">
+                                            <img src="./images/index08_05.jpg" alt="" class="fl">
+                                            <p class="fl c4d4">从你的世界路过
+                                                    入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                        </div>
+                                    </li>
+            
+                                    <li>
+                                        <span>6</span>
+                                        <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                        <div class="rightbox clearfix">
+                                            <img src="./images/index08_05.jpg" alt="" class="fl">
+                                            <p class="fl c4d4">从你的世界路过
+                                                    入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                        </div>
+                                    </li>
+            
+                                    <li>
+                                        <span>7</span>
+                                        <p class="righttitle  fs16 c4d4 ml30">就喜欢你看不惯我  又干不</p>
+                                        <div class="rightbox clearfix">
+                                            <img src="./images/index08_05.jpg" alt="" class="fl">
+                                            <p class="fl c4d4">从你的世界路过
+                                                    入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                                        </div>
+                                    </li>
+            
+                                </ul>
+                        </div>
+                    </div>
+    
+
+                </li>
+            </section>
+
+            <!-- 服装 -->
+            <section class="cloth">
+                <li class="cloth">
+                    <h2 class="clearfix"> 
+                        <div class="fl">服装 </div>
+                        <div class="fr new"> 
+                            <span class="spancur">女装内衣</span> <span>热销男装</span>   <span>精品鞋靴</span> 
+                        </div> 
+                    </h2>
+    
+                    <div class="section clearfix">
+                          <!-- 左边 -->  
+                          <div class="fl left">
+                                <img src="./images/index7_17.jpg" alt="">
+                                <ul class="clearfix">
+                                    <li><a href="#">中小学教辅</a></li>
+                                    <li><a href="#">外语</a></li>
+                                    <li><a href="#">考试</a></li>
+                                    <li><a href="#">小说</a></li>
+                                    <li><a href="#">文学</a></li>
+                                    <li><a href="#">青春文学</a></li>
+                                    <li><a href="#">成功\励志</a></li>
+                                    <li><a href="#">管理</a></li>
+                                    <li><a href="#">历史</a></li>
+                                    <li><a href="#">哲学\宗教</a></li>
+                                    <li><a href="#">亲子\家教</a></li>
+                                    <li><a href="#">全部分类></a></li>
+                                </ul>
+                          </div>
+                          <!-- 中间 -->
+                          <div class="middle fl">
+                              <!-- 轮播 -->
+                              <div class="lunbo">
+                                    <div class="pptbox fl" id="slider3">
+                                            <ul class="innerwrapper">
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="./images/index10_05.jpg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul class="controls">
+                                                <li class="current">1</li>
+                                                <li>2</li>
+                                                <li>3</li>
+                                                <li>4</li>
+                                                <li>5</li>
+                                            </ul>
+                                            <span class="btnleft"></span>
+                                            <span class="btnright"></span>
+                                    </div>
+    
+                              </div>
+    
+                              <img src="./images/index11_08.jpg" alt="">
+                          </div>
+                          <!-- 右边 -->
+                          <div class="right fl">
+                              <img src="./images/index12_05.jpg" alt="">
+                              <img src="./images/index12_05.jpg" alt="">
+                              <img src="./images/index12_05.jpg" alt="">
+                          </div>
+    
+                    </div>
+    
+                    <!-- 底部 -->
+                    <div class="bottom">
+                        <img src="./images/index15_13.jpg" alt="">
+                        <img src="./images/index15_14.jpg" alt="">
+                        <img src="./images/logo13_11.jpg" alt="">
+                        <img src="./images/logo13_12.jpg" alt="">
+                        <img src="./images/logo13_13.jpg" alt="">
+                        <img src="./images/logo13_14.jpg" alt="">
+                        <img src="./images/logo13_15.jpg" alt="">
+                        <img src="./images/logo13_16.jpg" alt="">
+                        <img src="./images/logo13_17.jpg" alt="">
+                    </div>
+                </li>
+            </section>
+
+            <!-- 户外运动 -->
+            <section class="sport">
+               <li class="cloth">
+                    <h2 class="clearfix"> 
+                            <div class="fl">户外运动 </div>
+                            <div class="fr new"> 
+                                <span class="spancur">国际名牌</span>  <span>户外装备</span>  <span>运动潮流</span> 
+                            </div> 
+                        </h2>
+        
+                        <div class="section clearfix">
+                              <!-- 左边 -->  
+                              <div class="fl left">
+                                    <img src="./images/baby.jpg" alt="">
+                                    <ul class="clearfix">
+                                        <li><a href="#">中小学教辅</a></li>
+                                        <li><a href="#">外语</a></li>
+                                        <li><a href="#">考试</a></li>
+                                        <li><a href="#">小说</a></li>
+                                        <li><a href="#">文学</a></li>
+                                        <li><a href="#">青春文学</a></li>
+                                        <li><a href="#">成功\励志</a></li>
+                                        <li><a href="#">管理</a></li>
+                                        <li><a href="#">历史</a></li>
+                                        <li><a href="#">哲学\宗教</a></li>
+                                        <li><a href="#">亲子\家教</a></li>
+                                        <li><a href="#">全部分类></a></li>
+                                    </ul>
+                              </div>
+                              <!-- 中间 -->
+                              <div class="middle fl">
+                                  <!-- 轮播 -->
+                                  <div class="lunbo">
+                                        <div class="pptbox fl" id="slider4">
+                                                <ul class="innerwrapper">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="./images/lun.jpg">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="controls">
+                                                    <li class="current">1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                    <li>5</li>
+                                                </ul>
+                                                <span class="btnleft"></span>
+                                                <span class="btnright"></span>
+                                        </div>
+        
+                                  </div>
+
+                                  <img src="./images/index11_08.jpg" alt="">
+                              </div>
+                              <!-- 右边 -->
+                              <div class="right fl">
+                                  <img src="./images/nv.jpg" alt="">
+                                  <img src="./images/nv.jpg" alt="">
+                                  <img src="./images/nv.jpg" alt="">
+                              </div>
+        
+                        </div>
+        
+                        <!-- 底部 -->
+                        <div class="bottom">
+                            <img src="./images/index15_13.jpg" alt="">
+                            <img src="./images/index15_14.jpg" alt="">
+                            <img src="./images/logo13_11.jpg" alt="">
+                            <img src="./images/logo13_12.jpg" alt="">
+                            <img src="./images/logo13_13.jpg" alt="">
+                            <img src="./images/logo13_14.jpg" alt="">
+                            <img src="./images/logo13_15.jpg" alt="">
+                            <img src="./images/logo13_16.jpg" alt="">
+                            <img src="./images/logo13_17.jpg" alt="">
+                        </div>
+               </li>  
+            </section>
+
+            <!-- 童鞋、童装、婴儿装 -->
+            <section class="child-cloth">
+                <li class="cloth">
+                        <h2 class="clearfix"> 
+                                <div class="fl">童鞋、童装、婴儿装  </div>
+                                <div class="fr new"> 
+                                    <span class="spancur">儿童服装</span>  <span> 婴儿装</span>  <span>小潮童鞋</span> 
+                                </div> 
+                            </h2>
+            
+                            <div class="section clearfix">
+                                  <!-- 左边 -->  
+                                  <div class="fl left">
+                                        <img src="./images/boy.jpg" alt="">
+                                        <ul class="clearfix">
+                                            <li><a href="#">中小学教辅</a></li>
+                                            <li><a href="#">外语</a></li>
+                                            <li><a href="#">考试</a></li>
+                                            <li><a href="#">小说</a></li>
+                                            <li><a href="#">文学</a></li>
+                                            <li><a href="#">青春文学</a></li>
+                                            <li><a href="#">成功\励志</a></li>
+                                            <li><a href="#">管理</a></li>
+                                            <li><a href="#">历史</a></li>
+                                            <li><a href="#">哲学\宗教</a></li>
+                                            <li><a href="#">亲子\家教</a></li>
+                                            <li><a href="#">全部分类></a></li>
+                                        </ul>
+                                  </div>
+                                  <!-- 中间 -->
+                                  <div class="middle fl">
+                                      <!-- 轮播 -->
+                                      <div class="lunbo">
+                                            <div class="pptbox fl" id="slider5">
+                                                    <ul class="innerwrapper">
+                                                        <li>
+                                                            <a href="#">
+                                                                <img src="./images/boys.jpg">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <img src="./plugin/banner-lubbo/imgs/banner2.jpg" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <img src="./plugin/banner-lubbo/imgs/banner3.jpg" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <img src="./plugin/banner-lubbo/imgs/banner4.jpg" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <img src="./plugin/banner-lubbo/imgs/banner5.jpg" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="controls">
+                                                        <li class="current">1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                        <li>4</li>
+                                                        <li>5</li>
+                                                    </ul>
+                                                    <span class="btnleft"></span>
+                                                    <span class="btnright"></span>
+                                            </div>
+            
+                                      </div>
+    
+                                      <img src="./images/index11_08.jpg" alt="">
+                                  </div>
+                                  <!-- 右边 -->
+                                  <div class="right fl">
+                                      <img src="./images/gilr.jpg" alt="">
+                                      <img src="./images/gilr.jpg" alt="">
+                                      <img src="./images/gilr.jpg" alt="">
+                                  </div>
+            
+                            </div>
+            
+                            <!-- 底部 -->
+                            <div class="bottom">
+                                <img src="./images/index15_13.jpg" alt="">
+                                <img src="./images/index15_14.jpg" alt="">
+                                <img src="./images/logo13_11.jpg" alt="">
+                                <img src="./images/logo13_12.jpg" alt="">
+                                <img src="./images/logo13_13.jpg" alt="">
+                                <img src="./images/logo13_14.jpg" alt="">
+                                <img src="./images/logo13_15.jpg" alt="">
+                                <img src="./images/logo13_16.jpg" alt="">
+                                <img src="./images/logo13_17.jpg" alt="">
+                            </div>
+                </li>             
+            </section>
+
+
+            <!-- 家居日用 -->
+            <section class="house">
+                <li class="house">
+                    <h2>家居日用</h2>
+                    <div class="clearfix">
+                        <div class="bed fl">
+                            <img src="./images/index21_05.jpg" alt="">
+                        </div>
+                        <div class="bag fl">
+                            <ul class="clearfix">
+                                <li><img src="./images/index22_05.jpg" alt=""></li>
+                                <li><img src="./images/index22_05.jpg" alt=""></li>
+                                <li><img src="./images/index22_05.jpg" alt=""></li>
+                                <li><img src="./images/index22_05.jpg" alt=""></li>
+                            </ul>
+    
+                            <ul class="ul2 clearfix">
+                                <li><img src="./images/index23_08.jpg" alt=""></li>
+                                <li><img src="./images/index23_08.jpg" alt=""></li>
+                                <li><img src="./images/index23_08.jpg" alt=""></li>
+                                <li><img src="./images/index23_08.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </section>
+
+            <!-- 推广商品 -->
+            <li class="spread">
+                 <h2>推广商品</h2>
+                 <ul class="clearfix comul">
+                        <script>
+                            for(let i=0;i<10;i++){
+                                document.write(`
+                                <li>
+                                     <a href="./conductdetails.html">
+                                        <img src="./images/index25_12.jpg" alt="" class="nai">
+                                        <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                        <span class="span1">￥:189</span>
+                                        <p class="cb9"> 
+                                            <img src="./images/index27_14.jpg" alt=""> 已有
+                                            <span>988</span>条评价 
+                                        </p>
+                                     </a>
+                                </li>
+            
+                                `)
+                            }    
+                        </script>
+                 </ul>
+            </li>
+
+        </ul>
+        
+    </div>
+
+    <!-- 4.楼层 -->
+    <div id="floor"> 
+            <div class="floor1"><span>图书</span></div>
+            <div class="floor2"><span>服装</span></div>
+            <div class="floor3"><span>运动</span></div>
+            <div class="floor4"><span>婴儿</span></div>
+            <div class="floor5"><span>家居</span></div>
+     </div>
+
+    <!-- 5.领劵中心 -->
+    <div id="center">
+        <span class="qrcode-a"></span>
+        <span class="qrcode-b"></span>
+        <span class="qrcode-c"></span>
+        <span class="qrcode-d"></span>
+    </div> 
+    
+    <!-- 6.顶部搜索框 -->
+    <div id="topsearch">
+        <div class="wrapper searchbox ">
+
+        </div>
+    </div>
+
+    <!-- 7.回到顶部 -->
+    <div id="topback">
+
+    </div>
+
+    <!-- 8.页脚 -->
+    <div id="footer">
+        <div class="service">
+            <img src="./images/222_11.png" alt="">
+            <img src="./images/222_13(1).png" alt="">
+            <img src="./images/222_15.png" alt="">
+            <img src="./images/222_17.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <ul class="clearfix">
+                <li>
+                    <h2>购物指南</h2>
+                    <ul>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">发票制度</a></li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">会员优惠</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>支付方式</h2>
+                    <ul>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">网上支付</a></li>
+                        <li><a href="#">礼品卡支付</a></li>
+                        <li><a href="#">银行转账</a></li>
+                    </ul>                    
+                </li>
+
+                <li>
+                    <h2>订单服务</h2>
+                    <ul>
+                        <li><a href="#">订单配送配送</a></li>
+                        <li><a href="#">订单状态查询</a></li>
+                        <li><a href="#">自动取消订单</a></li>
+                        <li><a href="#">自动修改订单</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>退换货</h2>
+                    <ul>
+                        <li><a href="#">退换货政策</a></li>
+                        <li><a href="#">自动申请退换货</a></li>
+                        <li><a href="#">退换货进度查询</a></li>
+                        <li><a href="#">退款方式和时间</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>商家服务</h2>
+                    <ul>
+                        <li><a href="#">商家中心</a></li>
+                        <li><a href="#">运营服务</a></li>
+                        <li><a href="#">加入唯品会</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <img src="./images/logo_00.png" alt="" class="logo">  
+            <div class="info">
+                    公司简介  |  Investor Relations  |  网站联盟  |  乐购招商  |  机构销售  |  手机乐购  |  官方Blog   |  热词搜索
+            </div>
+
+            <div class="bottom">
+                    Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入banner的插件 -->
+    <script src="./plugin/banner-lubbo/lib/jquery.slidebox.js"></script>
+    <!-- 引入当前页面的js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>

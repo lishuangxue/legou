@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/conductdetails.css">
+
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego ce6e ">legochina.cn</span> 
+
+                <div class="fr cbfb">
+                    欢迎光临<a href="./index.html" class="cff6">乐购</a>，
+                    请<a href="./login.html" class="cff6">登录</a> \
+                    <a href="./register.html"  class="cff6">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/logo.jpg" alt="" class="legoulogo">
+        </div>
+
+        <!-- 搜索框和购物车订单 -->
+        <div class=" wrapper searchbox clearfix">
+
+            <div class="carbox  clearfix fr">
+                <!-- 购物车 -->
+                <div class="car fl fs14 cfff ">
+                <a href="./shopcar.html" class="cfff">购物车<span class="cfff"> 3</span></a> 
+                </div>
+                <!-- 订单 -->
+                <div class="bgeb fs16 c808 fl order">我的订单</div>
+
+            </div>
+            <!-- 搜索框 -->
+            <form action="#" class="formhbox fr ">
+                <input type="text" placeholder="创意文具" class="txt fs16 cbfb">
+                <input type="submit" class="btn" value="">
+            </form>
+            
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav wrapper clearfix">
+        <ul class="fr">
+            <li><a href="#">图书</a></li>
+            <li><a href="#">电子书</a></li>
+            <li><a href="#">原创文学</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">孕婴童</a></li>
+            <li><a href="#">家具</a></li>
+            <li><a href="#">创意文具</a></li>
+            <li><a href="#">地方特产</a></li>
+            <li><a href="#">海外购</a></li>
+            <li><a href="#">电器城</a></li>
+        </ul>
+        </div>
+
+    </div>
+    
+    <!-- 2.图书 -->
+    <div id="library">
+        <div class="wrapper libhead">
+            <p class="c646 fs16"> <span class="fs24 c333">图书</span>  > 小说 > 情感/家庭/婚姻 >  博集天卷 > 她和他</p>
+
+            <div class="she clearfix">
+                <div class="library-l fl">
+                    <img src="./images/images/and_06.jpg" alt="">
+                    <p class="clearfix">
+                        <img src="./images/images/fl1_12.jpg" alt="">
+                        <img src="./images/images/and_06.jpg" alt="" class="bd">
+                        <img src="./images/images/and_06.jpg" alt="">                        
+                        <img src="./images/images/fr_12.jpg" alt="" class="fr">
+                    </p>
+                    <p class="c646 fs16 txtal mt20">商品编号：11950959</p>
+                </div>
+    
+                <div class="library-r fr">
+                    <p class="mb10 tindent20 fs22 c343">她和他</p>
+                    <p class="mb10 tindent20 fs18 cfb2"> 《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册</p>  
+                    <p class="mb10 tindent20 fs16 c818">[法] 马克·李维 著；杨亦雨 译</p> 
+                    <div class="price tindent20 fs16 clearfix">
+                        <p class="c6c6">
+                            乐 购 价：<span class="fs24 cred">￥26.20 </span> [6.9折] [定价：<span class="tline">￥38.00</span> ] (降价通知)
+                        </p>
+                        <p class="c6c6">
+                            促销信息：<span class="cred">满减 每满150.00元，可减50.00元现金 </span>   详情 >>
+                        </p>
+                        <p class="c808">
+                            领劵：<img src="./images/images/100_08.jpg" alt="">
+                            <img src="./images/images/100_08.jpg" alt="">   
+                        </p>
+                    </div>
+                    <p class="fs16 c949 sum txtal">累计评价<span class="fs18 cff6">99999</span></p>
+                    <p class="choice mt20 tindent43 fs16 c818">种类选择：<span>平板装</span> <span>精装版</span></p>
+                    <p class="addcar mt50">
+                        <div class="addcar-l clearfix ">
+                            <div class="num c808 fs28 txtal fl ">1</div>
+                            <div class="addbtn txtal fl">
+                                <p>+</p>
+                                <p>-</p>
+                            </div>
+                        </div>
+                        <div class="addcar-r  fs26 txtal cfff">加入购物车</div>
+                    </p>
+                    <p class="fs16 c808 tindent43 mt50">温馨提示：支持7天无理由退货</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 3.人气单品 -->
+    <div id="item" class="wrapper  mt50 clearfix" >
+
+        <div class="itembook">
+            <h2 class="fs24 cfff txtal">人气单品</h2>
+            <ul class="clearfix">
+                <script>
+                    for(let i=0;i<5;i++){
+                        document.write(`
+                            <li>
+                                <a href="./conductdetails.html">
+                                    <p class="txtal"><img src="./images/baiyaxing .jpg" alt=""></p>
+                                    <p><img src="./images/index05_18.jpg" alt=""></p>
+                                    <p class="c333 tindent10 ">白夜行  东野上吾</p>
+                                    <p class="tindent10 cred">推荐：<span class="cfee fs16">★★★★★</span>  </p>
+                                    <p class="tindent10 cred fs24">￥:38  <span class="c808 tline">￥:58</span> </p>
+                                </a>
+                            </li>            
+                        `)
+                    }    
+                </script>
+            </ul>
+        </div>
+
+        <div class="itemlook mt50 fl">
+            <p class="fs22 c666 bgf4 tindent10">看了又看</p>
+            <ul>
+                <script>
+                    for(let i=0;i<7;i++){
+                        document.write(`
+                            <li>
+                                <a href="./conductdetails.html">
+                                    <p class="txtal"><img src="./images/baiyaxing .jpg" alt=""></p>
+                                    <p><img src="./images/index05_18.jpg" alt=""></p>
+                                    <p class="c333 tindent10 ">白夜行  东野上吾</p>
+                                    <p class="tindent10 cred">推荐：<span class="cfee fs16">★★★★★</span>  </p>
+                                    <p class="tindent10 cred fs24">￥:38  <span class="c808 tline">￥:58</span> </p>
+                                </a>
+                            </li>            
+                        `)
+                    }    
+                </script>
+            </ul>
+            
+        </div>
+
+        <div class="itemdetail mt50  fr clearfix">
+                <p class="fs24 shangpin">  <span>商品介绍</span>  <span>评价(999+)</span>  </p>
+
+                <div class="ml30 mt40 mb40 c999 fs20 cl itemdetailbox clearfix" >
+
+                    <div class="fl">
+                        <span class="fs72 cred"> 98%</span>
+                        <br>&emsp; 好评度
+                    </div>
+
+                   <ul class="good fl ml20">
+                        <li>好评98% </li>
+                        <li>中评2% </li>
+                        <li>差评0% </li>
+                   </ul>
+
+                   <ul class="colorbox fl ml30 mr">
+                       <li class="clearfix">
+                           <div class="redbox bgff fl"></div>
+                           <div class="huibox bgce6 fl"></div>
+                      </li>
+
+                       <li class="clearfix">
+                           <div class="huibox bgff fl"></div>
+                           <div class="redbox bgce6 fl"></div>
+                       </li>
+
+                       <li class="bgce6 lastli">
+
+                       </li>
+                   </ul>
+
+                   <ul class="clearfix zhou fr">
+                       <li>1.洲**子</li>
+                       <li>+0</li>
+                       <li>2.洲**子</li>
+                       <li>+0</li>
+                       <li>3.洲**子</li>
+                       <li>+10</li>
+                       <li>4.洲**子</li>
+                       <li>+10</li>
+                   </ul>
+                </div>
+
+                <p class="all fl tindent20 fs16 c666 mt20 mb20">
+                    <span class="cf83">全部评论（9999）</span>  
+                    <span>好评（888）</span>   
+                    <span>中评（888）</span>  
+                     <span>差评（888）</span>   
+                </p>
+
+                <div class="clearfix">
+                    <ul class="itemdetail-l ca6a fl">
+                        <script>
+                            for(let i=0;i<12;i++){
+                                document.write(`
+                                
+                                <li>
+                                   <p class="cf83 fs18"> ★★★★<span class="c999">★</span>  </p>
+                                   <p>下单后5天评论</p>
+                                   <p>2016-08-11</p>
+                                </li>
+                                
+                                `)
+                            }    
+                        </script>
+                    </ul>
+
+                    <ul class="itemdetail-m fl c666">
+                            <script>
+                                    for(let i=0;i<12;i++){
+                                        document.write(`
+                                        
+                                        <li>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                                            键是价格真给力
+                                        </li>
+                                        
+                                        `)
+                                    }    
+                                </script>
+                    </ul>
+
+                    <ul class="itemdetail-r fr">
+                            <script>
+                                    for(let i=0;i<12;i++){
+                                        document.write(`
+                                        
+                                        <li>
+                                            <p>
+                                                <img src="./images/images/huiyaun_07.jpg" alt="">洲**子
+                                            </p>
+                                            <p class="cf4b">金牌会员</p>
+                                            <p class="c808">来自iPhone客户端</p>
+                                        </li>
+                                        
+                                        `)
+                                    }    
+                                </script>
+                    </ul>
+                </div>
+
+                <ul class="clearfix page fr txtal c999">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li class="dian">......</li>
+                    <li>下一页</li>
+                </ul>
+        </div>
+    </div>
+
+    <!-- 4.页脚 -->
+    <div id="footer">
+        <div class="txtal wrapper">
+            <img src="./images/moshou.png" alt="" >     
+        </div>
+        
+        <div class="service">
+            <img src="./images/222_11.png" alt="">
+            <img src="./images/222_13(1).png" alt="">
+            <img src="./images/222_15.png" alt="">
+            <img src="./images/222_17.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <ul class="clearfix">
+                <li>
+                    <h2>购物指南</h2>
+                    <ul>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">发票制度</a></li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">会员优惠</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>支付方式</h2>
+                    <ul>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">网上支付</a></li>
+                        <li><a href="#">礼品卡支付</a></li>
+                        <li><a href="#">银行转账</a></li>
+                    </ul>                    
+                </li>
+
+                <li>
+                    <h2>订单服务</h2>
+                    <ul>
+                        <li><a href="#">订单配送配送</a></li>
+                        <li><a href="#">订单状态查询</a></li>
+                        <li><a href="#">自动取消订单</a></li>
+                        <li><a href="#">自动修改订单</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>退换货</h2>
+                    <ul>
+                        <li><a href="#">退换货政策</a></li>
+                        <li><a href="#">自动申请退换货</a></li>
+                        <li><a href="#">退换货进度查询</a></li>
+                        <li><a href="#">退款方式和时间</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>商家服务</h2>
+                    <ul>
+                        <li><a href="#">商家中心</a></li>
+                        <li><a href="#">运营服务</a></li>
+                        <li><a href="#">加入唯品会</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <img src="./images/logo_00.png" alt="" class="logo">  
+            <div class="info">
+                    公司简介  |  Investor Relations  |  网站联盟  |  乐购招商  |  机构销售  |  手机乐购  |  官方Blog   |  热词搜索
+            </div>
+
+            <div class="bottom">
+                    Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+
+    <!-- 引入当前js -->
+    <script src="./js/conductdetails.js"></script>
+</body>
+</html>
