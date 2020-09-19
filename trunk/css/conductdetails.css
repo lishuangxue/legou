@@ -65,6 +65,9 @@
     width: 100px;
     line-height:34px;
     text-align: center;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #b8b8b8;
 }
 #library .she .library-r .choice .spanbg{
     background: url(../images/images/111_03.jpg) no-repeat;

@@ -30,6 +30,7 @@ $(function () {
 
     /* 版本选择 */
     $('#library .she .choice span').click(function(){
+        // $(this).css('border','transparent').siblings().css('border',' 0.5px solid #b8b8b8')
         $(this).addClass('spanbg').siblings().removeClass('spanbg')
     })
 

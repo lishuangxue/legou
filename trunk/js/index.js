@@ -55,25 +55,35 @@ $(function (){
         $(this).css('backgroundColor','#fff')
     })
 
-    /* 电子书 */
-
-
     /* 楼层 */
-    /* 添加div的hover事件 */
-    $('#floor div').hover(function(){
-        $(this).css({'backgroundPositionX':'-40px',
-                    'backgroundColor':"#93d46f"
-                    });
-        $(this).find('span').css('display','block');
+    // 方法一
+/*     let bgcs=['#93d46f', '#f65727', '#bb9dee', '#ff7394', '#c2ec51']
+    $('#floor li').hover(function(){
+        $(this).css({
+            'backgroundColor': bgcs[$(this).index()],
+        })
     },function(){
-        $(this).css({'backgroundPositionX':'0px',
-                    'backgroundColor':"#f2f2f2"
-                    })
-        $(this).find('span').css('display','none');   
+        $(this).css({
+            'backgroundColor':'',
+        })
+    }) */
+
+    /* 方法二 */
+    $('#floor li').hover(function(){
+        $(this).css({
+            'backgroundColor':$(this).attr('bgc1'),
+            'backgroundPositionX':-39,
+             width:40
+        })
+    },function(){
+        $(this).css({
+            'backgroundColor':'',
+            'backgroundPositionX':0,     
+            width:0                   
+        })
     })
-    /* 楼层跳转 */
-    $("#floor div").click(function(){
-        $("html,body").animate({scrollTop:$('section').eq($(this).index()).offset().top},500);
+    $('#floor li').click(function(){
+        $('html,body').animate({scrollTop:$('section').eq($(this).index()).offset().top},500)
     })
 
     /*  右边的新书畅销榜 */
