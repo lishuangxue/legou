@@ -72,3 +72,7 @@
 #payment .itembook li>p{
     line-height: 20px;
 }
+/* 删除 */
+#payment tbody .delete{
+    cursor: pointer;
+}

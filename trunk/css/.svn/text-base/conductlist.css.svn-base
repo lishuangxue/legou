@@ -127,6 +127,10 @@
 section{
     display: none;
 }
+
+section.cur{
+    display: block;
+}
 .like2{
     display: none;
 }

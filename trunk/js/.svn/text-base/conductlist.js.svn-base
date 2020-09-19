@@ -60,11 +60,10 @@ $(function (){
     $('#conduct .title li').mouseenter(function(){
         $(this).addClass('active').siblings().removeClass('active')
         let index= $(this).index();
-        let obj=$('section').eq(index).show().siblings('section').hide();
-        $('#slider2').css('display','none')
-        // let re=$("#ebook .ebook-left .con").eq(index).show().siblings(".con").hide();
-        //  $('section').eq(index).css('display','block')
+        // let obj=$('section').eq(index).show().siblings('section').hide();
+        let obj=$('section').eq(index).addClass('cur').siblings().removeClass('cur')
     })
+    
 
     /* 顶部搜索框 */
     $(window).scroll(function(){

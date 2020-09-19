@@ -88,13 +88,13 @@
                     <td>41.00</td>
                     <td>
                         <ul class="clearfix txtal">
-                            <li>-</li>
+                            <li class="reduce">-</li>
                             <li class="num">1</li>
-                            <li>+</li>
+                            <li class="add">+</li>
                         </ul>
                     </td>
                     <td class="fs18 ">41.00</td>
-                    <td>删除<br>移到我的关注</td>
+                    <td>  <div class="delete">删除</div>  <br>移到我的关注</td>
                 </tr>
                 <tr>
                         <td> <input type="checkbox">  </td>
@@ -103,13 +103,13 @@
                         <td>41.00</td>
                         <td>
                             <ul class="clearfix txtal">
-                                <li>-</li>
+                                <li class="reduce">-</li>
                                 <li class="num">1</li>
-                                <li>+</li>
+                                <li class="add">+</li>
                             </ul>
                         </td>
                         <td class="fs18">41.00</td>
-                        <td>删除<br>移到我的关注</td>
+                        <td><div class="delete">删除</div><br>移到我的关注</td>
                 </tr>
             </tbody>
 

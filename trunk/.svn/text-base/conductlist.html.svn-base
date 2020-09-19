@@ -404,7 +404,8 @@
                 </div>
 
                 <!-- 轮播 -->
-
+                <section class="cur">
+                    
                     <div class="pptbox fl" id="slider2">
                         <ul class="innerwrapper">
                             <li>
@@ -454,6 +455,7 @@
                         <span class="btnleft"></span>
                         <span class="btnright"></span>
                     </div>
+                </section>
 
                 <section>
                         <ul class="clearfix comul">
@@ -615,6 +617,30 @@
                     </ul>
                    
                </div>
+
+<!--                <div class="like3">
+                    <ul class="clearfix comul">
+                            <script>
+                                for(let i=0;i<10;i++){
+                                    document.write(`
+                                    <li>
+                                         <a href="./conductdetails.html">
+                                            <img src="./images/index25_12.jpg" alt="" class="nai">
+                                            <div>Pigeon法国制奶嘴，无  <br> 毒天然乳胶</div>
+                                            <span class="span1">￥:189</span>
+                                            <p class="cb9"> 
+                                                <img src="./images/index27_14.jpg" alt=""> 已有
+                                                <span>988</span>条评价 
+                                            </p>
+                                         </a>
+                                    </li>
+                
+                                    `)
+                                }    
+                            </script>
+                     </ul>
+                    
+                </div> -->
 
             </li>
             <img src="./images/images/renwen_07.jpg" alt="">
