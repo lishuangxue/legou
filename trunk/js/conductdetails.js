@@ -42,22 +42,18 @@ $(function () {
     })
 
     /* 数量加减 */
-    let sum= $('.num').val()
     $('.add').click(function(){
-        sum++;
-        $('.num').val(sum)
-
-        if($('.num').val()<=1){
-            $('.num').val(1)
-        }
+        let index=$('.num').eq(1).val()
+        index++;
+        $('.num').eq(1).val(index)
     })
-
     $('.reduce').click(function(){
-        sum--;
-        $('.num').val(sum)
-        
-        if($('.num').val()<=1){
-            $('.num').val(1)
+        let index=$('.num').eq(1).val()
+        index--; 
+        if(index<=1){
+            $('.num').eq(1).val(1)
+        }else{
+            $('.num').eq(1).val(index)
         }
     })
     

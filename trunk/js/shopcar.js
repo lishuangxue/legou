@@ -7,7 +7,7 @@ $('#payment .itembook li').hover(function(){
 
     /* 全选 */
     let flag=false;
-    $('#payment input:first,#payment input:last').click(function(){  
+    $('#payment input:first,#payment tfoot input:first').click(function(){  
         if(!flag){
             $('input:not(input:first)').prop('checked',true)
         }else{
@@ -22,21 +22,32 @@ $('#payment .itembook li').hover(function(){
     })
 
     /* 数量加减 */
-    let sum= $('.num').val()
     $('.add').click(function(){
-        sum++;
-        $('.num').val(sum)
-
-        if($('.num').val()<=1){
-            $('.num').val(1)
+        let index=$('.num').eq(1).val()
+        index++;
+        $('.num').eq(1).val(index)
+    })
+    $('.reduce').click(function(){
+        let index=$('.num').eq(1).val()
+        index--; 
+        if(index<=1){
+            $('.num').eq(1).val(1)
+        }else{
+            $('.num').eq(1).val(index)
         }
     })
 
-    $('.reduce').click(function(){
-        sum--;
-        $('.num').val(sum)
-        
-        if($('.num').val()<=1){
-            $('.num').val(1)
+    $('.add2').click(function(){
+        let index=$('.num').eq(3).val()
+        index++;
+        $('.num').eq(3).val(index)
+    })
+    $('.reduce2').click(function(){
+        let index=$('.num').eq(3).val()
+        index--; 
+        if(index<=1){
+            $('.num').eq(3).val(1)
+        }else{
+            $('.num').eq(3).val(index)
         }
     })

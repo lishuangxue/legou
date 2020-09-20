@@ -95,7 +95,7 @@ $(function (){
     })
 
     /* 点击换一换 */
-    let flag=true
+/*     let flag=true
     $('.huan').click(function(){
         if(flag){
 
@@ -106,10 +106,39 @@ $(function (){
             $('.like1').show();
         }
         flag=!flag
+    }) */
+
+
+
+
+})
+/* 换一换 */
+$(function () {
+    let index = 0;
+    let singleBoxHeight = $("#conduct .like .like1").outerHeight(true);
+    //获取初始的个数
+    let boxLength = $("#conduct .like .like1").length
+    console.log( $("#conduct  .like .bigbox .like1"));
+    
+    //克隆第一个盒子添加到最后。
+    $("#conduct .like .like1").eq(0).clone(true).appendTo("#conduct .like .bigbox .innerbox")
+    console.log(" 单个盒子的高度", singleBoxHeight);
+    //给a标签添加点击事件
+    $(".huan").click(function () {
+        index++;
+        //运动的距离
+        let st = -(index * singleBoxHeight);
+        console.log("运动的距离:", st, "当前索引：", index);
+        //动画完成之后判断是否是最后一个元素(是不是克隆的那个盒子) 
+        $("#conduct .like .bigbox .innerbox").stop(false,true).animate({ top: st }, 200, function () {
+            //当是最后一个盒子时，就立即回到第一个盒子。
+            //这一瞬间用户是看不到的
+            if (index >= boxLength) {
+                index = 0;
+                $("#conduct .bigbox .innerbox").css("top", index);
+            }
+        });
+       
     })
-
-
-
-
 })
 

@@ -116,8 +116,6 @@
     line-height: 23px;
     margin-left: 27px;
 }
-
-
 /* 猜你喜欢 */
 #conduct .like{
     border-bottom: 1px solid #b6b6b6;
@@ -131,9 +129,40 @@ section{
 section.cur{
     display: block;
 }
-.like2{
-    display: none;
+.likecur{
+    display: block;
 }
+
 .huan{
     cursor: pointer;
+}
+
+#conduct .like{
+    width: 100%;
+    position: relative;
+    height: 530px;
+}
+#conduct .like .like1{
+    height: 530px; 
+    width: 100%;   
+}
+#conduct .like .bigbox{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+#conduct .like .bigbox .innerbox{
+    position: absolute;
+    height: 500px;
+    top: 0
+}
+#conduct .like .bigbox .boxcur{
+    display: block;
+}
+/* #conduct .like .like1:first-child li{
+    height: 400px;
+} */
+.comul li{
+    height: 240px!important;
 }
