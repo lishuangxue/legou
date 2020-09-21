@@ -1,5 +1,45 @@
 /* 结算 */
 /* 表格 */
+#shopcartarea table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#shopcartarea table,td{
+    border: 1px solid #ccc;
+}
+
+#shopcartarea table thead tr,
+#shopcartarea table tfoot tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+#shopcartarea table tbody img{
+    vertical-align: middle;
+}
+
+#shopcartarea table tbody .reducebtn,
+#shopcartarea table tbody .addbtn
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc; 
+    text-align: center;   
+    cursor: pointer;
+    user-select: none;
+    text-indent: 0px
+}
+
+#shopcartarea table tbody .count{
+width: 50px;
+height: 30px;
+border: 1px solid #ccc;
+text-indent: 20px;    
+
+}
+/* 表格 */
 #payment table{
     width: 1200px;
 }
@@ -23,7 +63,6 @@
 }
 #payment table thead{
     padding-bottom: 100px;
-    /* margin-bottom: 100px; */
 }
 #payment table tbody ul li.num{
     width: 50px;
@@ -51,6 +90,7 @@
     line-height: 60px;
     text-indent: 0px;
 }
+
 /* 猜你喜欢 */
 #payment .itembook h2{
     width: 124px; 
@@ -73,6 +113,6 @@
     line-height: 20px;
 }
 /* 删除 */
-#payment tbody .delete{
+#payment tbody .delbtn,.delallbtn{
     cursor: pointer;
 }

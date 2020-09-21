@@ -480,38 +480,5 @@ body{
     height: 17px;
 }
 
-/* 购物车加减 */
-#payment table tbody ul li.num{
-   border:none;
-}
-.num input{
-    text-align: center;
-    width: 50px;
-    height: 26px;
-    line-height: 26px;
-    outline: none;
-    border: none;
-    border-top: 1px solid #b8b8b8;
-    border-bottom: 1px solid #b8b8b8;
-    color: #4d4d4d;
-}
-.addcar-l{
-    position: relative;
-}
-#library .she .num input{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 49px!important;
-    height: 42px;
-}
-.addbtn{
-    position: absolute;
-    top: 0px;
-    left: 93px;
-}
-#payment tfoot .num input{
-    border-top: transparent;
-    border-bottom: transparent;
-}
+
 
