@@ -19,7 +19,7 @@ function lunbo(selector,boxh,w,h){
         }
 //文档加载事件
 $(function (){
-    lunbo('#slider',400,1000,400)
+    lunbo('#slider',420,1000,420)
     lunbo('#slider2',220,330,220)
     lunbo('#slider3',320,426,342)
     lunbo('#slider4',320,426,342)

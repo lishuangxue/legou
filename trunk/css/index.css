@@ -1,26 +1,55 @@
-/* 2.商品分类 */
-.classify {
-	width: 200px;
-	height: 400px;
-    background-color: #f3f3f3;
+/*2. 商品分类和banner */
+/* ---左边的ul-- */
+#banner .menulist{
+    width: 200px;
+    height: 420px;
+    background-color: #ccc;
     position: relative;
+}
 
+#banner .menulist li{
+    line-height: 28px;
 }
-.classify >li{
-   padding-left: 18px;
-   line-height: 28px;
+
+#banner .menulist li:hover .menu{
+    display: block;
+    background-color: #fff;
+    
 }
-.classify span{
-    width: 28px;
-    height: 28px;
+#banner .menulist li:hover a{
+    color: black;
+}
+#banner .menulist li:hover p{
+    width: 180px;
+    background-color: #ffffff;
+    border-color: #f60;
+    border-right:0 ;
+}
+
+#banner .menulist li .menu{
     position: absolute;
+    left: 200px;
     top: 0;
-    left: 171px;
-    z-index: 200;
+    width: 486px;
+    height: 418px;
+    background-color: #fff;
+    display: none;
+    border: 1px solid #f60;
+    z-index: 101;
+}
+#banner .menulist li p{
+    position: relative;
+    z-index: 102;
+    border: solid 1px transparent;
+    padding-left: 20px;
+}
+#banner .menulist li a{
+    color: #fff;
+    font-family: MicrosoftYaHei;
 }
 
 /* 二级菜单 */
-.classify .submenu{
+#banner .menu{
     width: 535px;
     height: 400px;
     position: absolute;
@@ -32,27 +61,28 @@
     background-color: #ffff;
     z-index: 102;   
 }
-.classify .submenu ul{
+#banner .menu ul{
     width: 485px;
 }
-.classify .submenu h4 a{
+#banner .menu h4 a{
     font-size: 12px;
     margin-right: 30px;
 }
-.classify .submenu h2{
+#banner .menu h2{
     color: #ff6600;
     font-size: 14px;
     border-bottom: 2px solid #e6e6e6;
     margin-top: 2px;
     line-height: 18px;
 }
-.classify .submenu ul>li>a{
+#banner .menu ul>li>a{
     margin-right: 6px;
     font-size: 12px;
 }
-.classify .submenu ul li{
+#banner .menu ul li{
     line-height: 20px;
 }
+
 
 /* 3.内容商品 */
 .contain ul li h2{
