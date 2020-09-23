@@ -69,11 +69,10 @@ $('.delallbtn').click(function(){
 /* 7.改变数量的事件 */
 $('.count').keyup(function(){
     let num=$(this).val()
-    if(isNaN(num)){
+    if(isNaN(num) || num==0){
         $(this).val(1);
-        num=1
     }
-    if(num==200){
+    if(num>200){
         $(this).val(200)
         num=200;
     }
